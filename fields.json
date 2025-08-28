@@ -1,0 +1,196 @@
+{
+  "fakeCommentButton": {
+    "type": "button",
+    "label": "Send Fake Comment",
+    "value": "fake",
+    "group": "🔧 Test Tools"
+  },
+  "fakeGiftButton": {
+    "type": "button",
+    "label": "Send Fake Gift",
+    "value": "fake",
+    "group": "🔧 Test Tools"
+  },
+  "fakeFollowButton": {
+    "type": "button",
+    "label": "Send Fake Follow",
+    "value": "fake",
+    "group": "🔧 Test Tools"
+  },
+  "maxMessages": {
+    "type": "number",
+    "label": "Max Messages",
+    "value": 10,
+    "min": 1,
+    "max": 100,
+    "group": "🔧 General Settings"
+  },
+  "lineHeight": {
+    "type": "number",
+    "label": "Line Height (px)",
+    "value": 90,
+    "min": 40,
+    "max": 200,
+    "unit": "px",
+    "group": "🔧 General Settings"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font Size (px)",
+    "value": 22,
+    "min": 10,
+    "max": 40,
+    "unit": "px",
+    "group": "🔧 General Settings"
+  },
+  "commentNicknameFontSize": {
+    "type": "number",
+    "label": "Comment Nickname Font Size (px)",
+    "value": 20,
+    "min": 10,
+    "max": 40,
+    "unit": "px",
+    "group": "👤 Nickname Settings"
+  },
+  "commentNicknameTextColor": {
+    "type": "colorpicker",
+    "label": "Comment Nickname Text Color",
+    "value": "#000000",
+    "group": "👤 Nickname Settings"
+  },
+  "commentBackground": {
+    "type": "colorpicker",
+    "label": "Comment Background",
+    "value": "#ffffff",
+    "group": "💬 Comment Settings"
+  },
+  "commentBorderColor": {
+    "type": "colorpicker",
+    "label": "Comment Border Color",
+    "value": "#000000",
+    "group": "💬 Comment Settings"
+  },
+  "commentUserBackground": {
+    "type": "colorpicker",
+    "label": "Comment User Background",
+    "value": "#ffffff",
+    "group": "💬 Comment Settings"
+  },
+  "commentUserBorderColor": {
+    "type": "colorpicker",
+    "label": "Comment User Border Color",
+    "value": "#000000",
+    "group": "💬 Comment Settings"
+  },
+  "commentTextBackground": {
+    "type": "colorpicker",
+    "label": "Comment Text Background",
+    "value": "#ffffff",
+    "group": "💬 Comment Settings"
+  },
+  "commentTextColor": {
+    "type": "colorpicker",
+    "label": "Comment Text Color",
+    "value": "#000000",
+    "group": "💬 Comment Settings"
+  },
+  "commentTextFontSize": {
+    "type": "number",
+    "label": "Comment Text Font Size (px)",
+    "value": 22,
+    "min": 10,
+    "max": 40,
+    "unit": "px",
+    "group": "💬 Comment Settings"
+  },
+  "showAvatar": {
+    "type": "checkbox",
+    "label": "Show Avatar in Comments",
+    "value": false,
+    "group": "🖼 Avatar Settings"
+  },
+  "avatarBorderColor": {
+    "type": "colorpicker",
+    "label": "Avatar Border Color",
+    "value": "#000000",
+    "group": "🖼 Avatar Settings"
+  },
+  "gifterBadgeBackground": {
+    "type": "colorpicker",
+    "label": "Gifter Badge Background",
+    "value": "#000000",
+    "group": "🎖 Badge Settings"
+  },
+  "gifterBadgeTextColor": {
+    "type": "colorpicker",
+    "label": "Gifter Badge Text Color",
+    "value": "#ffcc00",
+    "group": "🎖 Badge Settings"
+  },
+  "followBadgeBackground": {
+    "type": "colorpicker",
+    "label": "Follow Badge Background",
+    "value": "#000000",
+    "group": "🎖 Badge Settings"
+  },
+  "followBadgeTextColor": {
+    "type": "colorpicker",
+    "label": "Follow Badge Text Color",
+    "value": "#ffcc00",
+    "group": "🎖 Badge Settings"
+  },
+  "topGifterBadgeBackground": {
+    "type": "colorpicker",
+    "label": "Top Gifter Badge Background",
+    "value": "#000000",
+    "group": "🎖 Badge Settings"
+  },
+  "topGifterBadgeTextColor": {
+    "type": "colorpicker",
+    "label": "Top Gifter Badge Text Color",
+    "value": "#ffcc00",
+    "group": "🎖 Badge Settings"
+  },
+  "modBadgeBackground": {
+    "type": "colorpicker",
+    "label": "Moderator Badge Background",
+    "value": "#000000",
+    "group": "🎖 Badge Settings"
+  },
+  "modBadgeTextColor": {
+    "type": "colorpicker",
+    "label": "Moderator Badge Text Color",
+    "value": "#ffcc00",
+    "group": "🎖 Badge Settings"
+  },
+  "giftHeadTextColor": {
+    "type": "colorpicker",
+    "label": "Gift Header Text Color",
+    "value": "#ffd700",
+    "group": "🎁 Gift Settings"
+  },
+  "giftContentBackground": {
+    "type": "colorpicker",
+    "label": "Gift Content Background",
+    "value": "#FFEEAF",
+    "group": "🎁 Gift Settings"
+  },
+  "giftContentTextColor": {
+    "type": "colorpicker",
+    "label": "Gift Content Text Color",
+    "value": "#000000",
+    "group": "🎁 Gift Settings"
+  },
+  "followContentBackground": {
+    "type": "colorpicker",
+    "label": "Follow Content Background",
+    "value": "#f16363",
+    "group": "⭐ Follow Event Settings"
+  },
+  "followContentTextColor": {
+    "type": "colorpicker",
+    "label": "Follow Content Text Color",
+    "value": "#000000",
+    "group": "⭐ Follow Event Settings"
+  }
+}
