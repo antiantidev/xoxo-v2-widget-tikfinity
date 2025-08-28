@@ -92,6 +92,12 @@ class ColorUtils {
   }
 }
 
+class StyleUtils {
+  static textShadowBlack() {
+    const shadows = "0 0 1px #000, 0 0 2px #000";
+    return shadows;
+  }
+}
 /**
  * Badge Configuration - centralized badge data
  */
@@ -724,20 +730,26 @@ class ChatWidget {
       const target = this.container.scrollHeight - this.container.clientHeight;
       $(this.container).stop().animate({ scrollTop: target }, 600);
     } else {
-      this.container.scrollTop = this.container.scrollHeight;
+      const target = this.container.scrollHeight - this.container.clientHeight;
+      $(this.container).stop().animate({ scrollTop: target }, 600);
     }
   }
 
   trimMessages() {
-    const maxAllowed = this.config.maxMsgCount + 20;
+    // Cache config value at start of method
+    const maxCount = this.config.maxMsgCount;
+    const maxAllowed = maxCount + 20;
+
     if (this.container.children.length <= maxAllowed) return;
 
+    // Use cached value for all operations
     const scrollBottom = this.container.scrollHeight - this.container.scrollTop;
 
     while (this.container.children.length > maxAllowed) {
       this.container.removeChild(this.container.firstChild);
     }
 
+    // Restore scroll using cached calculation
     this.container.scrollTop = this.container.scrollHeight - scrollBottom;
   }
 
